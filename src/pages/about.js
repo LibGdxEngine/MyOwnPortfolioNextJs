@@ -54,7 +54,7 @@ const About = () => {
                 About me
               </h2>
               <p className="font-medium">
-                As a machine learning and software engineer, I am passionate
+                As Data scientist, I am passionate
                 about creating intelligent systems that can learn and adapt to
                 user needs. I have a strong foundation in mathematics,
                 statistics, and computer science, and I enjoy applying these

@@ -37,14 +37,14 @@ export default function Home() {
                 "
               />
               <AnimatedText
-                text={`ML/Software Engineer`}
+                text={`Data scientist`}
                 className="!text-5xl !text-left
                 xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl
                 "
               />
 
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a software and ML engineer, I am a skilled professional with
+                As a Data scientist, I am a skilled professional with
                 expertise in designing and implementing software solutions that
                 leverage the power of machine learning to solve complex
                 problems. I have experience with a range of ML techniques,

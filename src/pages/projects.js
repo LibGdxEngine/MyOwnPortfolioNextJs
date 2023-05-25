@@ -159,17 +159,6 @@ const Projects = () => {
           />
 
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12">
-              <FeaturedProject
-                title={`Letaskono web app for Islamic marriage`}
-                summary={`A feature-rich web App using React, Tailwind CSS, Context API, React Router and Recharts. 
-It shows detail about each user and users can have real-time chat with eachother if they have agree.`}
-                link={`https://frontend-dot-letaskono.oa.r.appspot.com/`}
-                type={`Freelancing Project`}
-                github={`https://frontend-dot-letaskono.oa.r.appspot.com/`}
-                img={ProjectImg1}
-              />
-            </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title={`Routing Optimization Server`}
@@ -182,11 +171,11 @@ It shows detail about each user and users can have real-time chat with eachother
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title={`Online courses website`}
-                link={`https://itqan.vercel.app/`}
-                type={`My own Project`}
-                github={`https://github.com/LibGdxEngine/ItqanNextjs`}
-                img={ProjectImg3}
+                title={`DATOS - NO-CODE Machine Learning framework`}
+                link={`#`}
+                type={`Featured Project`}
+                github={`#`}
+                img={ProjectImg6}
               />
             </div>
             <div className="col-span-12">
@@ -195,7 +184,7 @@ It shows detail about each user and users can have real-time chat with eachother
                 title={`Automatic Images Colorization using GANs`}
                 summary={`Image Colorization model using GANs is my graduation project`}
                 link={`/`}
-                type={`Graduation Project`}
+                type={`Side Project`}
                 github={`/`}
                 img={ProjectImg4}
               />
@@ -213,13 +202,24 @@ It shows detail about each user and users can have real-time chat with eachother
             <div className="col-span-6 sm:col-span-12">
               {" "}
               <Project
-                title={`DATOS - NO-CODE Machine Learning framework`}
-                link={`#`}
-                type={`Featured Project`}
-                github={`#`}
-                img={ProjectImg6}
+                title={`Online courses website`}
+                link={`https://itqan.vercel.app/`}
+                type={`My own Project`}
+                github={`https://github.com/LibGdxEngine/ItqanNextjs`}
+                img={ProjectImg3}
               />
             </div>
+            <div className="col-span-12">
+              <FeaturedProject
+                title={`Letaskono web app for Islamic marriage`}
+                summary={`A feature-rich web App using React, Tailwind CSS, Context API, React Router and Recharts. 
+It shows detail about each user and users can have real-time chat with eachother if they have agree.`}
+                link={`https://frontend-dot-letaskono.oa.r.appspot.com/`}
+                type={`Freelancing Project`}
+                github={`https://frontend-dot-letaskono.oa.r.appspot.com/`}
+                img={ProjectImg1}
+              />
+            </div>{" "}
           </div>
         </Layout>
       </main>

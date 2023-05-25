@@ -106,7 +106,7 @@ const Navebar = (props) => {
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
+          {/* <motion.a
             href={`https://twitter.com`}
             target={`_blank`}
             whileHover={{ y: -2 }}
@@ -114,9 +114,9 @@ const Navebar = (props) => {
             className="w-6 mr-3"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
-            href={`https://twitter.com`}
+            href={`https://github.com/LibGdxEngine`}
             target={`_blank`}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -125,7 +125,7 @@ const Navebar = (props) => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href={`https://twitter.com`}
+            href={`www.linkedin.com/in/ahmed-fathy-zain`}
             target={`_blank`}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -133,7 +133,7 @@ const Navebar = (props) => {
           >
             <LinkedInIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href={`https://twitter.com`}
             target={`_blank`}
             whileHover={{ y: -2 }}
@@ -150,7 +150,7 @@ const Navebar = (props) => {
             className="w-6 ml-3"
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
